@@ -1,0 +1,23 @@
+
+
+.chakra-stack [aria-haspopup="listbox"] {
+    background-color: white;
+    border-radius: 25px;
+}
+
+ul[role="listbox"] li div {
+    width: 100%;
+}
+
+ul[role="listbox"] li div:hover {
+    font-weight: bold;
+}
+
+.itemCounter input {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.quickMenu div {
+    z-index: 2;
+}
